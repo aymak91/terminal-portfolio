@@ -58,7 +58,7 @@ const Footer = () => {
         )}
         {" | "}
         <a
-          href="https://www.github.com/Kielx"
+          href="https://github.com/aymak91"
           target="_blank"
           rel="noopener noreferrer"
         >

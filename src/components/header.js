@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => {
         <h1>{">"}</h1>
         <h1>
           {isLoaded ? (
-            "Krzysztof Pantak"
+            "Alexander Mak"
           ) : (
             <Typewriter
               style={{ marginTop: 0, paddingTop: 0 }}
@@ -29,10 +29,13 @@ const Header = ({ siteTitle }) => {
                   .typeString("Software Developer")
                   .pauseFor(2500)
                   .deleteAll()
-                  .typeString("Problem solver")
+                  .typeString("Problem Solver")
                   .pauseFor(2500)
                   .deleteAll()
-                  .typeString("Krzysztof Pantak")
+                  .typeString("Dog Lover")
+                  .pauseFor(2500)
+                  .deleteAll()
+                  .typeString("Alexander Mak")
                   .callFunction(() => {
                     setIsLoaded(true)
                   })

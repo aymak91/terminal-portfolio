@@ -47,8 +47,8 @@ export default function Contact({ close }) {
         <form
           name="contact"
           method="post"
-          action="/contact-us"
-          onSubmit={handleSubmit}
+          action="https://formspree.io/f/mgepljol"
+          // onSubmit={handleSubmit}
         >
           <p hidden>
             <label>

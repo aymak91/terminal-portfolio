@@ -1,7 +1,7 @@
 import React from "react"
 import Typewriter from "typewriter-effect"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faLink } from "@fortawesome/free-solid-svg-icons"
 
 export default function PopupTerminalWindow({
@@ -104,6 +104,17 @@ export default function PopupTerminalWindow({
             ) : (
               ""
             )}
+            <a
+                href="https://www.linkedin.com/in/alexanderyumak/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="popupTerminalWindowLinkIcon"
+                  size="2x"
+                />
+              </a>
             {popupGithubLink ? (
               <a
                 href={popupGithubLink}
