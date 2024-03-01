@@ -12,7 +12,7 @@ techIcons: [
         "javascript",
         "react",
         "redux",
-        "nodejs",
+        "nodedotjs",
         "express",
         "mongodb",
         "heroku",
