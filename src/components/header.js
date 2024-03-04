@@ -27,13 +27,13 @@ const Header = ({ siteTitle }) => {
               onInit={typewriter => {
                 typewriter
                   .typeString("Software Developer")
-                  .pauseFor(2500)
+                  .pauseFor(1500)
                   .deleteAll()
                   .typeString("Problem Solver")
-                  .pauseFor(2500)
+                  .pauseFor(1500)
                   .deleteAll()
                   .typeString("Dog Lover")
-                  .pauseFor(2500)
+                  .pauseFor(1500)
                   .deleteAll()
                   .typeString("Alexander Mak")
                   .callFunction(() => {
