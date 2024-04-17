@@ -7,10 +7,10 @@ module.exports = {
     title: `Alexander Mak`,
     titleTemplate: `%s | Terminal Portfolio`,
     description: `Terminal -command-line themed portfolio featuring projects ranging from robust Gatsby PWA's, React APPs and FullStack Web APPs utilizing cloud platforms to simple HTML, CSS and JavaScript sites.`,
-    author: `@KrzysztofPantak`,
+    author: ``,
     url: "https://alexandermak.dev",
     image: "/PortfolioSS-sm.png", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@KrzysztofPantak",
+    twitterUsername: "",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
